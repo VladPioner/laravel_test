@@ -40,10 +40,10 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                     <ul class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{route('admin.category.index')}}">Категории</a></li>
-                            <li><a href="{{route('admin.article.index')}}">Материалы</a></li>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Блог</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="{{route('admin.category.index')}}">Категории</a></li>
+                            <li class="dropdown-item"><a href="{{route('admin.article.index')}}">Материалы</a></li>
                         </ul>
                     </ul>
                 </ul>

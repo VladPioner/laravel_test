@@ -27,7 +27,7 @@
 
         <div class="row">
             <div class="col-sm-6">
-                <a class="btn btn-block btn-primary" href="{{route('admin.category.create')}}">Создать категорию</a>
+                <a class="btn btn-block btn-secondary" href="{{route('admin.category.create')}}">Создать категорию</a>
                 <a class="list-group-item" href="#">
                     <h4 class="list-group-item-heading">Категория первая</h4>
                     <p>
@@ -36,7 +36,7 @@
                 </a>
             </div>
             <div class="col-sm-6">
-                <a class="btn btn-block btn-primary" href="#">Создать материал</a>
+                <a class="btn btn-block btn-secondary" href="#">Создать материал</a>
                 <a class="list-group-item" href="#">
                     <h4 class="list-group-item-heading">Материал первый</h4>
                     <p>
